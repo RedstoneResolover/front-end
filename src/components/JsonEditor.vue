@@ -2,7 +2,7 @@
 import { onMounted, onUnmounted, ref } from 'vue'
 
 import * as monaco from 'monaco-editor/esm/vs/editor/editor.api'
-import jsonWorker from 'monaco-editor/esm/vs/language/json/json.worker?worker'
+import jsonWorker from 'monaco-editor/esm/vs/language/json/json.worker?worker&inline'
 import 'monaco-editor/esm/vs/language/json/monaco.contribution'
 import type { Window as MonacoWindow, editor as MonacoEditor } from 'monaco-editor'
 
